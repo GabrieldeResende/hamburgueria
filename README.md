@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 <h1 align="center">Hamburgueria</h1>
-<p align="center"> :hamburger: Projeto para site de hamburgueria para demonstração das minhas habilidades em Angular :hamburger :</p>
+<p align="center"> :hamburger: Projeto para site de hamburgueria para demonstração das minhas habilidades em Angular :hamburger: </p>
 
 1. [ ] Pagina Home 
    * [x] Header
