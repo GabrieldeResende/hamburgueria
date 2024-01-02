@@ -29,9 +29,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <p align="center"> :hamburger: Projeto para site de hamburgueria para demonstração das minhas habilidades em Angular :hamburger: </p>
 
 1. [ ] Pagina Home 
-   * [x] Header
-   * [x] Footer
-   * [ ] Nav
+   * [x] Header 02/01/2024
+   * [x] Footer 02/01/2024
+   * [x] Nav
    * [ ] Produto em Oferta
 2. [ ] Pagina de Hamburgueres
    * [ ] exibição de todos os produtos hamburgueres
