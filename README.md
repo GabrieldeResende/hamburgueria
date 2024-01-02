@@ -27,3 +27,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+1. [ ] Pagina Home 
+   * [x] Header
+   * [ ] Footer
+   * [ ] Nav
+   * [ ] Produto em Oferta
+2. [ ] Pagina de Hamburgueres
+   * [ ] exibição de todos os produtos hamburgueres
+   * [ ] mudança no sistema de navegação (retirar a tag hamburguer e ficar Home)
