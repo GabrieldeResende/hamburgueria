@@ -24,10 +24,16 @@
     font-size: large;
 }
 
-.price {
+/* .price {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     margin-top: 50px;
     padding: 25px;
+} */
+
+.button_price {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
 }

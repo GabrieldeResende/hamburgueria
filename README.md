@@ -28,11 +28,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <h1 align="center">Hamburgueria</h1>
 <p align="center"> :hamburger: Projeto para site de hamburgueria para demonstração das minhas habilidades em Angular :hamburger: </p>
 
-1. [ ] Pagina Home 
+1. [x] Pagina Home 
    * [x] Header 02/01/2024
    * [x] Footer 02/01/2024
-   * [x] Nav
-   * [ ] Produto em Oferta
+   * [x] Nav 05/01/2024
+   * [x] Produto em Oferta 05/01/2024
+   * [x] botão para adicionar ao pedido 05/01/2024
 2. [ ] Pagina de Hamburgueres
    * [ ] exibição de todos os produtos hamburgueres
-   * [ ] mudança no sistema de navegação (retirar a tag hamburguer e ficar Home)
+   * [x] botão para adicionar ao pedido 05/01/2024
+   * [x] rota para o pedido 05/01/2024
