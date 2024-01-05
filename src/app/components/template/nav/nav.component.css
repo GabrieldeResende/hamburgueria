@@ -1,3 +1,7 @@
+.container {
+    background-color: #ff8200;
+}
+
 .sidenav {
     background-color: grey;
     width: 200px;
@@ -13,4 +17,9 @@
     display: grid;
     justify-content: center;
     padding-top: 25px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #ff8200;
 }
