@@ -38,3 +38,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
    * [ ] exibição de todos os produtos hamburgueres
    * [x] botão para adicionar ao pedido 05/01/2024
    * [x] rota para o pedido 05/01/2024
+3. [ ] Criação do db.json
+   * [ ] criar uma breve lista de itens
+   * [ ] usar o protocolo http para adicionar e remover

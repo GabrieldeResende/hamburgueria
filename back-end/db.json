@@ -1,0 +1,11 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Hamburguer X",
+            "description": "asdasdasdasd",
+            "price": 19.99,
+            "img": ""
+        }
+    ]
+}
