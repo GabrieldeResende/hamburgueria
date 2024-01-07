@@ -4,12 +4,136 @@
             <img class="img" src="../../../assets/burger1.avif" alt="">
             <div class="description">
                 <h2 class="name">Hamburguer X</h2>
-                <p>BLEND DE BLACK ANGUS, QUEIJO MINAS MEIA CURA GRATINADO, CEBOLAS CARAMELIZADAS, FINAS FATIAS DE BACON
+                <p>BLEND DE 120g, QUEIJO CHEDDAR, FINAS FATIAS DE BACON DEFUMADO CROCANTE E MOLHO PÁPRICA ESPECIAL NO PÃO BRIOCHE DE BATATA ARTESANAL</p>
+                <div class="button_price">
+                    <button style="margin-top: 60px;" (click)="navigateToOrder()" mat-flat-button color="primary">Adicionar ao pedido</button>
+                    <p style="margin-top: 60px;" class="price">R$ 19,99</p>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="burger">
+        <div class="content">
+            <img class="img" src="../../../assets/burger2.jpg" alt="">
+            <div class="description">
+                <h2 class="name">Hamburguer Y</h2>
+                <p>180g de blend angus premium, queijo meia cura derretido, alface orgânica,
+                    toque de acidez com picles de cebola roxa agridoce e molho </p>
+                <div class="button_price">
+                    <button style="margin-top: 60px;" (click)="navigateToOrder()" mat-flat-button
+                        color="primary">Adicionar ao pedido</button>
+                    <p style="margin-top: 60px;" class="price">R$ 29,99</p>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="burger">
+        <div class="content">
+            <img class="img" src="../../../assets/burger3.jpg" alt="">
+            <div class="description">
+                <h2 class="name">Hamburguer Z</h2>
+                <p>BLEND DE 120G, QUEIJO GRATINADO, CEBOLAS CARAMELIZADAS, FINAS FATIAS DE BACON
                     DEFUMADO CROCANTE, TOMATE FRESCO, MIX DE BABY LEAF E MOLHO PÁPRICA ESPECIAL NO PÃO BRIOCHE DE BATATA
-                    ARTESANAL</p>
+                    ARTESANAL E PICLES</p>
                 <div class="button_price">
                     <button (click)="navigateToOrder()" mat-flat-button color="primary">Adicionar ao pedido</button>
                     <p class="price">R$ 19,99</p>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="burger">
+        <div class="content">
+            <img class="img" src="../../../assets/burger4.jpg" alt="">
+            <div class="description">
+                <h2 class="name">Hamburguer X</h2>
+                <p>BLEND DE 120G, QUEIJO CHEDDAR, CEBOLAS CARAMELIZADAS, FINAS FATIAS DE BACON
+                    DEFUMADO CROCANTE, TOMATE FRESCO, MIX DE BABY LEAF E MOLHO ESPECIAL NO PÃO BRIOCHE</p>
+                <div class="button_price">
+                    <button (click)="navigateToOrder()" mat-flat-button color="primary">Adicionar ao pedido</button>
+                    <p class="price">R$ 22,99</p>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="burger">
+        <div class="content">
+            <img class="img" src="../../../assets/burger5.webp" alt="">
+            <div class="description">
+                <h2 class="name">Hamburguer X DUPLO</h2>
+                <p>2 BLEND DE 150G, 2 FATIAS DE QUEIJO CHEDDAR, FINAS FATIAS DE BACON
+                    DEFUMADO CROCANTE, NO PÃO BRIOCHE </p>
+                <div class="button_price">
+                    <button style="margin-top: 110px;" (click)="navigateToOrder()" mat-flat-button
+                        color="primary">Adicionar ao pedido</button>
+                    <p style="margin-top: 110px;" class="price">R$ 22,99</p>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="burger">
+        <div class="content">
+            <img class="img" src="../../../assets/burger6.webp" alt="">
+            <div class="description">
+                <h2 class="name">Hamburguer SINGLE</h2>
+                <p>BLEND DE 120G, QUEIJO CHEDDAR, FINAS FATIAS DE BACON DEFUMADO CROCANTE, PÃO BRIOCHE ARTESANAL</p>
+                <div class="button_price">
+                    <button  style="margin-top: 60px;" (click)="navigateToOrder()" mat-flat-button color="primary">Adicionar ao pedido</button>
+                    <p style="margin-top: 60px;" class="price">R$ 16,99</p>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="burger">
+        <div class="content">
+            <img class="img" src="../../../assets/burger7.jpg" alt="">
+            <div class="description">
+                <h2 class="name">BURGER 3X1</h2>
+                <p>BLEND DE BLACK ANGUS 150G, QUEIJO CHEDDAR, CEBOLAS CARAMELIZADAS, FINAS FATIAS DE BACON
+                    DEFUMADO CROCANTE, TOMATE FRESCO, MIX DE BABY LEAF E MOLHO ESPECIAL NO PÃO BRIOCHE ARTESANAL</p>
+                <div class="button_price">
+                    <button (click)="navigateToOrder()" mat-flat-button color="primary">Adicionar ao pedido</button>
+                    <p class="price">R$ 49,99</p>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="burger">
+        <div class="content">
+            <img class="img" src="../../../assets/burger8.jpg" alt="">
+            <div class="description">
+                <h2 class="name">SUPER BURGER</h2>
+                <p>BLEND DE BLACK ANGUS 180G, QUEIJO CHEDDAR, CEBOLAS CARAMELIZADAS, FINAS FATIAS DE BACON
+                    DEFUMADO CROCANTE, PICLES, MIX DE BABY LEAF E MOLHO ESPECIAL NO PÃO BRIOCHE ARTESANAL</p>
+                <div class="button_price">
+                    <button (click)="navigateToOrder()" mat-flat-button color="primary">Adicionar ao pedido</button>
+                    <p class="price">R$ 29,99</p>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="burger">
+        <div class="content">
+            <img class="img" src="../../../assets/burger9.jpg" alt="">
+            <div class="description">
+                <h2 class="name">Hamburguer Salad</h2>
+                <p>BLEND DE 120G, QUEIJO CHEDDAR, TOMATE FRESCO, MIX DE BABY LEAF E MOLHO PÁPRICA ESPECIAL, PICLES NO PÃO BRIOCHE DE BATATA ARTESANAL</p>
+                <div class="button_price">
+                    <button style="margin-top: 60px;" (click)="navigateToOrder()" mat-flat-button color="primary">Adicionar ao pedido</button>
+                    <p style="margin-top: 60px;" class="price">R$ 22,99</p>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="burger">
+        <div class="content">
+            <img class="img" src="../../../assets/burger10.jpg" alt="">
+            <div class="description">
+                <h2 class="name">Hamburguer Rock</h2>
+                <p>BLEND DE 180G, QUEIJO CHEDDAR, CEBOLAS CARAMELIZADAS, FINAS FATIAS DE BACON, TOMATE FRESCO, MIX DE BABY LEAF E MOLHO PÁPRICA ESPECIAL NO PÃO BRIOCHE DE BATATA ARTESANAL</p>
+                <div class="button_price">
+                    <button (click)="navigateToOrder()" mat-flat-button color="primary">Adicionar ao pedido</button>
+                    <p class="price">R$ 24,99</p>
                 </div>
             </div>
         </div>

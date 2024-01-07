@@ -34,10 +34,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
    * [x] Nav 05/01/2024
    * [x] Produto em Oferta 05/01/2024
    * [x] botão para adicionar ao pedido 05/01/2024
-2. [ ] Pagina de Hamburgueres
-   * [ ] exibição de todos os produtos hamburgueres
+2. [x] Pagina de Hamburgueres
+   * [x] exibição de todos os produtos hamburgueres
    * [x] botão para adicionar ao pedido 05/01/2024
    * [x] rota para o pedido 05/01/2024
 3. [ ] Criação do db.json
    * [x] criar uma breve lista de itens
-   * [ ] usar o protocolo http para adicionar e remover
+   * [x] usar o protocolo http para adicionar e remover
+3. [ ] Finalizar Bebidas/Sobremesas/Ofertas
+   * [ ] criar uma breve lista de itens de bebidas
+   * [ ] criar uma breve lista de itens de sobremesas
+   * [ ] criar uma breve lista de itens de ofertas

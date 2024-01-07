@@ -29,4 +29,9 @@ export class OrderService {
   read(): Observable<Order[]> {
     return this.http.get<Order[]>(this.baseUrl)
   }
+
+  delete(id: string): Observable<Order> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.delete<Order>(url)
+  }
 }
