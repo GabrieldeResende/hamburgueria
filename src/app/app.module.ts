@@ -19,6 +19,9 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 import { BurgersComponent } from './views/burgers/burgers.component';
 import { OrderComponent } from './components/order/order/order.component';
+import { DessertComponent } from './views/dessert/dessert.component';
+import { DrinksComponent } from './views/drinks/drinks.component';
+import { OfferComponent } from './views/offer/offer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { OrderComponent } from './components/order/order/order.component';
     NavComponent,
     HomeComponent,
     BurgersComponent,
-    OrderComponent
+    OrderComponent,
+    DessertComponent,
+    DrinksComponent,
+    OfferComponent
   ],
   imports: [
     BrowserModule,
